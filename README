@@ -1,0 +1,3 @@
+#Two step process: Fist command will fail. Then run second and it will succed.
+sudo docker-compose up --build --force-recreate
+sudo docker-compose up

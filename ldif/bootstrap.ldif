@@ -1,12 +1,143 @@
-dn: cn=developer,dc=example,dc=com
+dn: uid=ElisaPace,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-cn: developer
-givenname: developer
-sn: Developer
-displayname: Developer User
-mail: developer@gmail.com
-userpassword: developer_pass
+uid: "ElisaPace"
+cn: "Elisa Pace"
+sn: Pace
+
+dn: uid=CaelanSolomon,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "CaelanSolomon"
+cn: "Caelan Solomon"
+sn: Solomon
+
+dn: uid=EmmieAli,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "EmmieAli"
+cn: "Emmie Ali"
+sn: Ali
+
+dn: uid=LeenPhan,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "LeenPhan"
+cn: "Leen Phan"
+sn: Phan
+
+dn: uid=ZarahGamble,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "ZarahGamble"
+cn: "ZarahGamble"
+sn: Gamble
+
+dn: uid=JordiAnderson,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "JordiAnderson"
+cn: "Jordi Anderson"
+sn: Anderson
+
+dn: uid=VivekHenderson,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "VivekHenderson"
+cn: "Vivek Henderson"
+sn: Henderson
+
+dn: uid=MairaBurks,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "MairaBurks"
+cn: "Maira Burks"
+sn: Burks
+
+dn: uid=LiyaFranklin,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "LiyaFranklin"
+cn: "Liya Franklin"
+sn: Franklin
+
+dn: uid=LillyStanley,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "LillyStanley"
+cn: "Lilly Stanley"
+sn: Stanley
+
+dn: uid=AydinHayes,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "AydinHayes"
+cn: "Aydin Hayes"
+sn: Hayes
+
+dn: uid=AlainaHealy,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "AlainaHealy"
+cn: "Alaina Healy"
+sn: Healy
+
+dn: uid=MillyPike,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "MillyPike"
+cn: "Milly Pike"
+sn: Pike
+
+dn: uid=IqraWest,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "IqraWest"
+cn: "Iqra West"
+sn: West
+
+dn: uid=Isla-RaeGibbs,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "Isla-RaeGibbs"
+cn: "Isla-Rae Gibbs"
+sn: Gibbs
+
+dn: uid=AtifGilmore,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "AtifGilmore"
+cn: "Atif Gilmore"
+sn: Gilmore
+
+dn: uid=KiyaSweeney,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "KiyaSweeney"
+cn: "Kiya Sweeney"
+sn: Sweeney
+
+dn: uid=AleeshaStamp,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "AleeshaStamp"
+cn: "Aleesha Stamp"
+sn: Stamp
+
+dn: uid=ChynaGreer,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "ChynaGreer"
+cn: "Chyna Greer"
+sn: Greer
+
+dn: uid=SalmaHolman,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "SalmaHolman"
+cn: "Salma Holman"
+sn: Holman
+
 
 dn: cn=Admins,ou=Groups,dc=example,dc=com
 changetype: add
@@ -18,4 +149,4 @@ dn: cn=Users,ou=Groups,dc=example,dc=com
 changetype: add
 cn: Users
 objectclass: groupOfUniqueNames
-uniqueMember: cn=developer,dc=example,dc=com
+uniqueMember: uid=ElisaPace,dc=example,dc=com
