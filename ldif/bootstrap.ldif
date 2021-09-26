@@ -137,16 +137,3 @@ objectclass: inetOrgPerson
 uid: "SalmaHolman"
 cn: "Salma Holman"
 sn: Holman
-
-
-dn: cn=Admins,ou=Groups,dc=example,dc=com
-changetype: add
-cn: Admins
-objectclass: groupOfUniqueNames
-uniqueMember: cn=admin,dc=example,dc=com
-
-dn: cn=Users,ou=Groups,dc=example,dc=com
-changetype: add
-cn: Users
-objectclass: groupOfUniqueNames
-uniqueMember: uid=ElisaPace,dc=example,dc=com
