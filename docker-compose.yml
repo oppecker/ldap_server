@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  ldap_server:
+    image: osixia/openldap:1.1.10
+    command: --copy-service
+    ports:
+      - 389:389
+    environment:
+      LDAP_DOMAIN: "example.com"
+      LDAP_BASE_DN: "dc=example,dc=com"
+      LDAP_ADMIN_PASSWORD: "admin"
+    volumes:
+      - ./ldif:/container/service/slapd/assets/config/bootstrap/ldif/custom
+  ldap_server_admin:
+    image: osixia/phpldapadmin:0.7.2
+    ports:
+      - 8090:80
+    environment:
+      PHPLDAPADMIN_LDAP_HOSTS: ldap_server
+      PHPLDAPADMIN_HTTPS: 'false'
+volumes:
+  ldif:

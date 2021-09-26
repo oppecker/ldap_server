@@ -1,0 +1,21 @@
+dn: cn=developer,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+cn: developer
+givenname: developer
+sn: Developer
+displayname: Developer User
+mail: developer@gmail.com
+userpassword: developer_pass
+
+dn: cn=Admins,ou=Groups,dc=example,dc=com
+changetype: add
+cn: Admins
+objectclass: groupOfUniqueNames
+uniqueMember: cn=admin,dc=example,dc=com
+
+dn: cn=Users,ou=Groups,dc=example,dc=com
+changetype: add
+cn: Users
+objectclass: groupOfUniqueNames
+uniqueMember: cn=developer,dc=example,dc=com
