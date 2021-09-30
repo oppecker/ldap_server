@@ -1,3 +1,2 @@
-#Two step process: Fist command will fail. Then run second and it will succed.
-sudo docker-compose up --build --force-recreate
+Deploy Server with:
 sudo docker-compose up
