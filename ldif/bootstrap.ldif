@@ -1,139 +1,174 @@
-dn: uid=ElisaPace,dc=example,dc=com
+dn: uid=Bob_Ross@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "ElisaPace"
+uid: "Bob_Ross@msn.com"
+cn: "Bob Ross"
+sn: Ross
+
+dn: uid=Mr_Rodgers@msn.com,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "Mr_Rodgers@msn.com"
+cn: "Mr Rodgers"
+sn: Rodgers
+
+dn: uid=Bill_Evans@msn.com,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "Bill_Evans@msn.com"
+cn: "Bill Evans"
+sn: Evans
+
+dn: uid=Stanley_Hero@msn.com,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "Stanley_Hero@msn.com"
+cn: "Stanley Hero"
+sn: Hero
+
+dn: uid=Fred_Savage@msn.com,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "Fred_Savage@msn.com"
+cn: "Fred_Savage"
+sn: Savage
+
+dn: uid=Elisa_Pace@msn.com,dc=example,dc=com
+changetype: add
+objectclass: inetOrgPerson
+uid: "Elisa_Pace@msn.com"
 cn: "Elisa Pace"
 sn: Pace
 
-dn: uid=CaelanSolomon,dc=example,dc=com
+dn: uid=Caelan_Solomon@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "CaelanSolomon"
+uid: "Caelan_Solomon@msn.com"
 cn: "Caelan Solomon"
 sn: Solomon
 
-dn: uid=EmmieAli,dc=example,dc=com
+dn: uid=Emmie_Ali@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "EmmieAli"
+uid: "Emmie_Ali@msn.com"
 cn: "Emmie Ali"
 sn: Ali
 
-dn: uid=LeenPhan,dc=example,dc=com
+dn: uid=Leen_Phan@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "LeenPhan"
+uid: "Leen_Phan@msn.com"
 cn: "Leen Phan"
 sn: Phan
 
-dn: uid=ZarahGamble,dc=example,dc=com
+dn: uid=Zarah_Gamble@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "ZarahGamble"
-cn: "ZarahGamble"
+uid: "Zarah_Gamble@msn.com"
+cn: "Zarah Gamble"
 sn: Gamble
 
-dn: uid=JordiAnderson,dc=example,dc=com
+dn: uid=Jordi_Anderson@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "JordiAnderson"
+uid: "Jordi_Anderson@msn.com"
 cn: "Jordi Anderson"
 sn: Anderson
 
-dn: uid=VivekHenderson,dc=example,dc=com
+dn: uid=Vivek_Henderson@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "VivekHenderson"
+uid: "Vivek_Henderson@msn.com"
 cn: "Vivek Henderson"
 sn: Henderson
 
-dn: uid=MairaBurks,dc=example,dc=com
+dn: uid=Maira_Burks@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "MairaBurks"
+uid: "Maira_Burks@msn.com"
 cn: "Maira Burks"
 sn: Burks
 
-dn: uid=LiyaFranklin,dc=example,dc=com
+dn: uid=Liya_Franklin@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "LiyaFranklin"
+uid: "Liya_Franklin@msn.com"
 cn: "Liya Franklin"
 sn: Franklin
 
-dn: uid=LillyStanley,dc=example,dc=com
+dn: uid=Lilly_Stanley@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "LillyStanley"
+uid: "Lilly_Stanley@msn.com"
 cn: "Lilly Stanley"
 sn: Stanley
 
-dn: uid=AydinHayes,dc=example,dc=com
+dn: uid=Aydin_Hayes@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "AydinHayes"
+uid: "Aydin_Hayes@msn.com"
 cn: "Aydin Hayes"
 sn: Hayes
 
-dn: uid=AlainaHealy,dc=example,dc=com
+dn: uid=Alaina_Healy@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "AlainaHealy"
+uid: "Alaina_Healy@msn.com"
 cn: "Alaina Healy"
 sn: Healy
 
-dn: uid=MillyPike,dc=example,dc=com
+dn: uid=Milly_Pike@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "MillyPike"
+uid: "Milly_Pike@msn.com"
 cn: "Milly Pike"
 sn: Pike
 
-dn: uid=IqraWest,dc=example,dc=com
+dn: uid=Iqra_West@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "IqraWest"
+uid: "Iqra_West@msn.com"
 cn: "Iqra West"
 sn: West
 
-dn: uid=Isla-RaeGibbs,dc=example,dc=com
+dn: uid=Isla-Rae_Gibbs@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "Isla-RaeGibbs"
+uid: "Isla-Rae_Gibbs@msn.com"
 cn: "Isla-Rae Gibbs"
 sn: Gibbs
 
-dn: uid=AtifGilmore,dc=example,dc=com
+dn: uid=Atif_Gilmore@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "AtifGilmore"
+uid: "Atif_Gilmore@msn.com"
 cn: "Atif Gilmore"
 sn: Gilmore
 
-dn: uid=KiyaSweeney,dc=example,dc=com
+dn: uid=Kiya_Sweeney@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "KiyaSweeney"
+uid: "Kiya_Sweeney@msn.com"
 cn: "Kiya Sweeney"
 sn: Sweeney
 
-dn: uid=AleeshaStamp,dc=example,dc=com
+dn: uid=Aleesha_Stamp@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "AleeshaStamp"
+uid: "Aleesha_Stamp@msn.com"
 cn: "Aleesha Stamp"
 sn: Stamp
 
-dn: uid=ChynaGreer,dc=example,dc=com
+dn: uid=Chyna_Greer@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "ChynaGreer"
+uid: "Chyna_Greer@msn.com"
 cn: "Chyna Greer"
 sn: Greer
 
-dn: uid=SalmaHolman,dc=example,dc=com
+dn: uid=Salma_Holman@msn.com,dc=example,dc=com
 changetype: add
 objectclass: inetOrgPerson
-uid: "SalmaHolman"
+uid: "Salma_Holman@msn.com"
 cn: "Salma Holman"
 sn: Holman
